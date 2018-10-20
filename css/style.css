@@ -84,6 +84,9 @@ body a:hover {
 }
 
 @media (min-width: 768px) {
+    .banner-info{
+        font-size: 2em;
+    }
 .navbar-nav {
 	float: right;
 }
@@ -1057,14 +1060,14 @@ form{
 	margin-bottom: 40px;
 }
 video {
- min-width: 100%;
+
  min-height: 100%;
 }
 .fullscreen-bg-video {
-	width: 2120px;
+	width: 100%;
 
  align-content: flex-start;
- min-width: 150%;
+
 }
 .vid-container {
 	position: relative;
@@ -1111,111 +1114,186 @@ video {
 }
 
 @media (max-width:1024px) {
-.banner-info h1 {
-	font-size: 2.8em;
-}
-.banner-info p {
-	font-size: 17px;
-	margin: em auto 2em;
-}
-.banner-info {
-	margin: 0em 0 0;
-}
-.banner {
-	min-height: 200px;
-}
-.banner-bottom, .about, .news, .gallery, .contact, .blog {
-	padding: 4em 0;
-}
-h3, .news h3, .gallery h3, .contact h3 {
-	margin: 0 0 0.5em;
-}
-p.eos {
-	font-size: 16px;
-}
-.banner-bottom-grids {
-	margin: 3.5em 0;
-}
-.banner-bottom-grid-left p, .banner-bottom-grid1 h4 {
-	font-size: 17px;
-}
-.banner-bottom-grid1 p, .about-grid-right p {
-	font-size: 15px;
-}
-.banner-bottom-grid1 p {
-	font-size: 15px;
-	margin: 1em auto .47em;
-	width: 92%;
-}
-.click a {
-	font-size: 17px;
-}
-.more a {
-	padding: 8px 26px;
-}
-.banner-bottom h3, .about h3, .news h3, .gallery h3, .contact h3 {
-	margin: 0 0 .5em;
-}
-.about-grid-right h4 {
-	font-size: 17px;
-}
-.about-grid-right p {
-	margin: 1em 0 1em;
-}
-.glyphicon-glass, .glyphicon-headphones, .glyphicon-calendar {
-	font-size: 3em;
-	padding: 1.5em 0 0 1.79em;
-}
-.abt-grd h4 {
-	font-size: 2em;
-}
-.abt-grd {
-	height: 232px;
-}
-.news-grid-right h4 {
-	font-size: 18px;
-}
-.camera {
-	padding: 0.5em 0 0.5em 1.5em;
-}
-.news-grid-left p {
-	font-size: 18px;
-}
-.btn-lg, .btn-group-lg > .btn {
-	padding: 8px 12px;
-	font-size: 15px;
-}
-.b-animate img {
-	margin-left: 2.5em;
-}
- .blog-info-text h5, .category h4, .recent-posts h4, .comments h4, .comment-form h4, .response h4 {
- font-size: 17px;
-}
+    .banner-info h1 {
+        font-size: 2.8em;
+    }
 
-a.list-group-item:hover, a.list-group-item:focus {
-	font-size: 15px;
-}
-p.snglp, .blog-info-text p, .posts-right p, p.cmmnt, .admin-text-right p, .response-text-right p {
-	font-size: 15px;
-}
-.comment-icons ul li a {
-	font-size: 15px;
-}
-.coment-form input[type="submit"] {
-	padding: 13px 60px;
-}
+    .banner-info p {
+        font-size: 17px;
+        margin: em auto 2em;
+    }
 
+    .banner-info {
+        margin: 0em 0 0;
+    }
+
+    .banner {
+        min-height: 200px;
+    }
+
+    .banner-bottom, .about, .news, .gallery, .contact, .blog {
+        padding: 4em 0;
+    }
+
+    h3, .news h3, .gallery h3, .contact h3 {
+        margin: 0 0 0.5em;
+    }
+
+    p.eos {
+        font-size: 16px;
+    }
+
+    .banner-bottom-grids {
+        margin: 3.5em 0;
+    }
+
+    .banner-bottom-grid-left p, .banner-bottom-grid1 h4 {
+        font-size: 17px;
+    }
+
+    .banner-bottom-grid1 p, .about-grid-right p {
+        font-size: 15px;
+    }
+
+    .banner-bottom-grid1 p {
+        font-size: 15px;
+        margin: 1em auto .47em;
+        width: 92%;
+    }
+
+    .click a {
+        font-size: 17px;
+    }
+
+    .more a {
+        padding: 8px 26px;
+    }
+
+    .banner-bottom h3, .about h3, .news h3, .gallery h3, .contact h3 {
+        margin: 0 0 .5em;
+    }
+
+    .about-grid-right h4 {
+        font-size: 17px;
+    }
+
+    .about-grid-right p {
+        margin: 1em 0 1em;
+    }
+
+    .glyphicon-glass, .glyphicon-headphones, .glyphicon-calendar {
+        font-size: 3em;
+        padding: 1.5em 0 0 1.79em;
+    }
+
+    .abt-grd h4 {
+        font-size: 2em;
+    }
+
+    .abt-grd {
+        height: 232px;
+    }
+
+    .news-grid-right h4 {
+        font-size: 18px;
+    }
+
+    .camera {
+        padding: 0.5em 0 0.5em 1.5em;
+    }
+
+    .news-grid-left p {
+        font-size: 18px;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+
+    .b-animate img {
+        margin-left: 2.5em;
+    }
+
+    .blog-info-text h5, .category h4, .recent-posts h4, .comments h4, .comment-form h4, .response h4 {
+        font-size: 17px;
+    }
+
+    a.list-group-item:hover, a.list-group-item:focus {
+        font-size: 15px;
+    }
+
+    p.snglp, .blog-info-text p, .posts-right p, p.cmmnt, .admin-text-right p, .response-text-right p {
+        font-size: 15px;
+    }
+
+    .comment-icons ul li a {
+        font-size: 15px;
+    }
+
+    .coment-form input[type="submit"] {
+        padding: 13px 60px;
+    }
+}
+    @media (max-width:940px) {
+        .simply-countdown-losange {
+            margin: 10px;
+            padding-left: 120px;
+            position: absolute;
+            vertical-align: middle;
+        }
+    }
 
 @media (max-width:960px) {
+    .banner-info h1{
+        font-size: 1.8em;
+    }
     .simply-countdown-losange {
-        margin: 100px;
-        padding-left: 120px;
+        margin-top: 120px;
+        padding-left: 80px;
         position: absolute;
         vertical-align: middle;
+    }
+    span.simply-amount{
+        font-size: 40px;
+    }
+    .simply-word{
+        font-size: 18px;
+    }
+    .simply-section{
+        margin:20px;
+    }
+	div.examples.overlay-counter{
+		width: 100%;
+	}
+}
+
+@media (max-width:680px) {
+    .simply-countdown-losange {
+        margin-left: 120px;
+        padding-left: 50px;
+        position: absolute;
+        vertical-align: middle;
+        width: inherit;
+    }
+    span.simply-amount{
+        font-size: 30px;
+    }
+    span.simply-word{
+        font-size: 18px;
+    }
+    div.examples.overlay-counter{
+        padding: 10px;
+        margin: 10px;
+    }
+    div.simply-section{
+        margin: 14px;
+
     }
 }
 
 @media (max-width:768px) {
+
 .navbar-nav li a {
 	font-size: 1.3em;
 }
@@ -1320,9 +1398,13 @@ p.eos {
 .news-grid-left {
 	width: 14%;
 }
+
 }
 
 @media (max-width:736px) {
+    .banner-info h1{
+        font-size: 1.4em;
+    }
 .navbar {
 	padding: 1em 0 0;
 }
@@ -1476,6 +1558,32 @@ a.navbar-brand {
 }
 
 @media (max-width:480px) {
+    div.simply-section{
+
+        margin: 10px;
+
+        width: 60px;
+
+        height: 20px;
+
+
+    }
+    .simply-countdown-losange{
+        margin-left: 72px;
+        margin-top: 100px;
+
+    }
+    html body div.banner-info div.vid-container h1.overlay-title {
+        font-size: 17px;
+    }
+
+    span.simply-word{
+        font-size: small;
+    }
+    span.simply-amount{
+        font-size: small;
+    }
+
 a.navbar-brand {
 	width: 28%;
 }
@@ -1558,10 +1666,39 @@ a.navbar-brand {
 .media.response-info {
 	margin-top: 2em;
 }
+
+
+
 }
 
 @media (max-width: 414px) {
-a.navbar-brand {
+    div.simply-section{
+
+        margin: 7px;
+
+        width: 60px;
+
+        height: 0px;
+
+
+    }
+    .simply-countdown-losange{
+        margin-left: 72px;
+        margin-top: 70px;
+
+    }
+    html body div.banner-info div.vid-container h1.overlay-title {
+        font-size: 17px;
+    }
+
+    span.simply-word{
+        font-size: small;
+    }
+    span.simply-amount{
+        font-size: small;
+    }
+
+    a.navbar-brand {
 	width: 29%;
 }
 .banner-info {
@@ -1570,7 +1707,33 @@ a.navbar-brand {
 }
 
 @media (max-width: 384px) {
-.banner-info {
+    div.simply-section{
+
+        margin: 35px;
+
+        width: 0px;
+
+        height: 0px;
+
+
+    }
+    .simply-countdown-losange{
+        margin-left: 0px;
+        margin-top: 100px;
+
+    }
+    html body div.banner-info div.vid-container h1.overlay-title {
+        font-size: 12px;
+    }
+
+    span.simply-word{
+        font-size: small;
+    }
+    span.simply-amount{
+        font-size: small;
+    }
+
+    .banner-info {
 	margin: 0em 0 0;
 }
 a.navbar-brand:before {
